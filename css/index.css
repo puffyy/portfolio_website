@@ -112,13 +112,13 @@ main::after {
 #flag-layer1 {
 	position: absolute;
 	top: 0;
-	background-image: linear-gradient(to top right, #FDAAD2 0 12.5%,#AAFDD6  12.5% 25%, #733B00 25% 37.5%, #000 37.5% 50%, transparent 50%, transparent 100%);
+	background-image: linear-gradient(to top right, #FFF 0 10%, #FDAAD2 10% 20%,#AAFDD6  20% 30%, #733B00 30% 40%, #000 40% 50%, transparent 50%, transparent 100%);
 }
 
 #flag-layer2 {
 	position: absolute;
 	bottom: 0;
-	background-image: linear-gradient(to bottom right, #FDAAD2 0 12.5%,#AAFDD6  12.5% 25%, #733B00 25% 37.5%, #000 37.5% 50%, transparent 50%, transparent 100%);
+	background-image: linear-gradient(to bottom right, #FFF 0 10%, #FDAAD2 10% 20%,#AAFDD6 20% 30%, #733B00 30% 40%, #000 40% 50%, transparent 50%, transparent 100%);
 }
 
 /* Animation Container */
