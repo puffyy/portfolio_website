@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Puffyy's</title>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1b">
+  	
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="images/favicon.svg">
+  	
+    <script src="https://kit.fontawesome.com/a1b8ca1217.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div id="site">
+      <!-- MAIN CONTAINER -->
+      <main>
+        <!--First Container-->
+        <div id="first-container">
+          <div id="pride-flag" class="flag">
+            <span id="flag-layer2" class="flag"></span>
+            <span id="flag-layer3" class="flag"></span>
+          </div>
+          <!--Animation Container-->
+          <div id="animation-container">
+            <figure id="animation-element">
+              <img id="leaf-left" class="leaf" src="images/index/envira-brands.png" alt="Leaf" width="30" height="35">
+              <img id="leaf-right" class="leaf" src="images/index/envira-brands.png" alt="Leaf" width="30" height="35">
+              <h1 id="puffyy-text" class="season-color"><strong>Puffyy</strong></h1>             
+              <div id="scene" class="scene-animation ">
+                <!-- hammock -->
+                <div id="rope">
+                  <span id="left-rope" class="rope"></span>
+                  <span id="right-rope" class="rope"></span>				
+                </div>
+                <div id="chair"></div>
+                <!-- puffyy cloud -->
+                <div id="puffyy-cloud">
+                  <span id="cloud-body"></span>            
+                  <span id="bulge-top"></span>  
+                  <span id="bulge-right-top"></span>
+                  <span id="bulge-right-bottom"></span>
+                  <span id="bulge-left"></span>
+                  <span id="eye-right" class="eye">
+                    <span class="pupil">
+                      <span class="sparkle"></span>
+                    </span>
+                  </span>
+                  <span id="eye-left" class="eye">       
+                    <span class="pupil">
+                      <span class="sparkle"></span>
+                    </span>
+                  </span>   
+                  <span id="blush-right" class="blush"></span>
+                  <span id="blush-left" class="blush"></span>
+                  <span id="nose"></span>
+                  <span id="mouth">
+                    <span id="tongue"></span> 
+                  </span>
+                  <span id="leg-right" class="leg">
+                    <span id="feet-right" class="feet"></span>
+                  </span>
+                  <span id="leg-left" class="leg">       
+                    <span id="feet-left" class="feet"></span>
+                  </span>   
+                  <span id="arm-right" class="arm">       
+                    <span id="hand-right" class="hand"></span>
+                  </span>   
+                  <span id="arm-left" class="arm">       
+                    <span id="hand-left" class="hand"></span>
+                  </span>      
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!--Contact Container-->
+          <div id="contact-container">
+            <div id="contact-box">
+              <p id="contact-text" class="season-color">Waiting<br/>for<br/>Next Project</p>
+              <a id='contact' href="mailto:puffyy@puffyy.dev" class="button-font contact-button">
+                  <b>CONTACT</b>
+              </a>
+              <br/><br/>
+              <button id='blog-button' type="button" class="button-font contact-button">
+                <b>BLOG</b>
+              </button>
+            </div>
+          </div>    
+        </div>
+
+        <!--Second Container-->
+        <div id="second-container">
+          <h2>Skills</h2>
+          <div id="skill-container">
+            <div class="skill-box">
+              <img class="skill-icon" src="images/index/development.svg" alt="frontend-icon">
+              <h3 class="skill-headline-container"><b>Frontend</b></h3>
+              <p class="skill-text"><b>HTML, CSS, JavaScript</b>
+                <br/><br/>
+                Bootstrap, TailwindCSS, jQuery, React, Flask, Regex
+              </p>
+            </div>
+            <div class="skill-box">
+              <img class="skill-icon" src="images/index/cloud.svg" alt="cloud-icon">
+              <h3 class="skill-headline-container"><b> Cloud & Database</b></h3>
+              <p class="skill-text"><b>Google-Cloud, SQL</b></p>
+            </div>
+            <div class="skill-box">
+              <img class="skill-icon" src="images/index/visualization.svg" alt="visualization-icon">
+              <h3 class="skill-headline-container"><b>Data Manipulation <br/> & <br/> Visualization</b></h3>
+              <p class="skill-text"><b>Python, JavaScript</b>
+                <br/><br/>
+                Pandas, Numpy, MatplotLib, Seaborn, D3.js
+              </p>
+            </div>
+            <div class="skill-box">
+              <img class="skill-icon" src="images/index/ml.svg" alt="ml-icon">
+              <h3 class="skill-headline-container"><b>Machine Learning</b></h3>
+              <p class="skill-text"><b>Python, JavaScript</b>
+                <br/><br/>
+                Tensorflow, Keras, Scikit-Learn, OpenCV, YOLO
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer Container -->
+      <footer>
+            <ul class="social-media">
+              <li><a href="https://github.com/puffyy"><i class="fab fa-github fa-2x fa-fw"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/mervekiraz/"><i class="fab fa-linkedin-in fa-2x fa-fw"></i></a></li>
+              <li><a href="https://medium.com/@puffyy"><i class="fab fa-medium-m fa-2x fa-fw"></i></a></li>
+              <li><a href="https://codepen.io/puffyy"><i class="fab fa-codepen fa-2x fa-fw"></i></a></li>
+          </ul>
+          <p class="copyright-text">©2021, Puffyy's</p>
+      </footer>
+
+      <!--PopUps-->
+      <div class="popup" id="popup-contact-disabled">
+        <header class="popup-contact-disabled-header popup-text">
+          <h4 class="popup-text">Default Mail App Couldnt Recognize</h4>
+          <button data-close-button class="season-color close-button">&times;</button>
+        </header>
+        <div class="popup-contact-disabled-body">
+          <p>Contact me from e-mail</p>
+          <p class="season-color" id="e-mail"><em>puffyy@puffyy.dev</em><p>
+          <button class="season-color copy-button" id="copy">
+            <b>Copy</b>
+          </button>
+          <br/><br/>
+          <p>or from social medias below</p>
+          <ul class="season-color social-media">
+            <li><a href="https://github.com/puffyy"><i class="fab fa-github fa-2x fa-fw season-color"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/mervekiraz/"><i class="fab fa-linkedin-in fa-2x fa-fw season-color"></i></a></li>
+            <li><a href="https://medium.com/@puffyy"><i class="fab fa-medium-m fa-2x fa-fw season-color"></i></a></li>
+            <li><a href="https://codepen.io/puffyy"><i class="fab fa-codepen fa-2x fa-fw season-color"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="popup popup-blog-body" id="popup-blog">
+        <div class="season-color popup-blog-text">
+          <b>Coming Soon...</b> 
+        </div>
+        <button data-close-button class="season-color close-button">&times;</button>
+      </div>
+
+      <div class="" id="overlay"></div>   
+    </div>
+
+    <script src="js/index.js"></script>   
+
+  </body>
+</html>
