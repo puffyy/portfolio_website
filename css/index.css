@@ -801,7 +801,8 @@ footer a {
 	content: "e-mail adress copied";
 	position: absolute;
 	margin-left: 10px;
-	width: 10rem;
+	width: 7rem;
+	height: max-content;
 	font-size: 0.8rem;
 	color: #111;
 }
