@@ -88,8 +88,9 @@ main::after {
 
 /* Pride Flag */
 .flag {
+	width: 35%;
 	min-height: 300px;
-	height: 50vh;
+	height: 50%;
 }
 
 #pride-flag {
@@ -97,17 +98,25 @@ main::after {
 	top: 0;
 	width: 100%;
 	min-height: 600px;
-	height: 100vh;
+	height: inherit;
 	background-image: linear-gradient(to bottom, #ff0000 0 16.67%,	#ff8800 16.67% 33.33%, #FFEE00 33.33% 50%,
 	#00FF00 50% 66.67%, #0000FF	 66.67% 83.34%, #A700CC 83.34% 100%);
 }
 
-#flag-layer2 {
+@media only screen and (max-width: 850px) {
+	#pride-flag {
+		max-height: 100vh;
+	}
+}
+
+#flag-layer1 {
+	position: absolute;
 	top: 0;
 	background-image: linear-gradient(to top right, #FDAAD2 0 12.5%,#AAFDD6  12.5% 25%, #733B00 25% 37.5%, #000 37.5% 50%, transparent 50%, transparent 100%);
 }
 
-#flag-layer3 {
+#flag-layer2 {
+	position: absolute;
 	bottom: 0;
 	background-image: linear-gradient(to bottom right, #FDAAD2 0 12.5%,#AAFDD6  12.5% 25%, #733B00 25% 37.5%, #000 37.5% 50%, transparent 50%, transparent 100%);
 }
@@ -123,7 +132,6 @@ main::after {
 	min-height: 800px;
 	width: 60%;
 	height: 100%;
-
 }
 
 @media only screen and (max-width: 850px) {
